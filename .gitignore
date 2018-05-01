@@ -34,3 +34,4 @@ config/paths.js
 config/env.js
 package-lock.json
 src/registerServiceWorker.js
+README.md
