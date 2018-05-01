@@ -1,0 +1,36 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+src/App.test.js
+scripts/test.js
+scripts/start.js
+scripts/build.js
+public/manifest.json
+config/jest/fileTransform.js
+config/jest/cssTransform.js
+config/webpackDevServer.config.js
+config/webpack.config.prod.js
+config/webpack.config.dev.js
+config/polyfills.js
+config/paths.js
+config/env.js
+package-lock.json
+src/registerServiceWorker.js
